@@ -15,6 +15,8 @@ public class Tset {
 				int x=(int)(Math.random()*100%100);
 				
 				System.out.println("R("+x+","+y+")");
+			}else{
+			System.out.println("请输入“1”");
 			}
 			
 		}
