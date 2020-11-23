@@ -9,14 +9,18 @@ public class Tset {
 		Scanner scanner=new Scanner(System.in);
 		while (true) {			
 			System.out.println("请输入:");
-			int num=scanner.nextInt();		
-			int y=(int)(Math.random()*100%100*num);
-			int x=(int)(Math.random()*100%100*num);
+			int num=scanner.nextInt();
+			if (num==1) {
+				int y=(int)(Math.random()*100%100);
+				int x=(int)(Math.random()*100%100);
+				
+				System.out.println("R("+x+","+y+")");
+			}
 			
-			System.out.println("R("+x+","+y+")");
 		}
 		
 
 	}
 
 }
+
